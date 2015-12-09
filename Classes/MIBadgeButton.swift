@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MIBadgeButton: UIButton {
+public class MIBadgeButton: UIButton {
     
     private var badgeLabel: UILabel
     var badgeString: String? {
@@ -42,7 +42,7 @@ class MIBadgeButton: UIButton {
         setupBadgeViewWithString(badgeText: "")
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         badgeLabel = UILabel()
         super.init(coder: aDecoder)
         setupBadgeViewWithString(badgeText: "")
