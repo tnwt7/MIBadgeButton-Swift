@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MIBadgeButton: UIButton {
+public class MIBadgeButton: UIButton {
     
     private var badgeLabel: UILabel
     var badgeString: String? {
