@@ -84,7 +84,7 @@ public class MIBadgeButton: UIButton {
         setupBadgeStyle()
         addSubview(badgeLabel)
         
-        badgeLabel.hidden = badgeText != nil ? false : true
+        badgeLabel.hidden = badgeText == nil || badgeText == ""
     }
     
     private func setupBadgeStyle() {

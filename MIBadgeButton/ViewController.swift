@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
 
         
-        facebookButton.badgeString = "19"
+        facebookButton.badgeString = ""
         facebookButton.badgeTextColor = UIColor.whiteColor()
         facebookButton.badgeEdgeInsets = UIEdgeInsetsMake(10, 0, 0, 15)
         twitterButton.badgeString = "180"
